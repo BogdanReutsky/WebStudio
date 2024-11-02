@@ -1,13 +1,17 @@
-
+:root{
+    --head-collor: #ECECEC;
+    --footer-collor: #2F303A;
+    --main-collor: #F5F4FA;
+    }
 
 header{
-    background-color: #ECECEC;
+    background-color: var(--head-collor);
 }
 
 section{
-    background-color: #EEEEEE;
+    background-color: var(--main-collor);
 }
 
 footer{
-    background-color: #2F303A;
+    background-color: var(--footer-collor);
 }
