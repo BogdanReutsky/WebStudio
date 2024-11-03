@@ -1,17 +1,37 @@
-:root{
-    --head-collor: #ECECEC;
-    --footer-collor: #2F303A;
-    --main-collor: #F5F4FA;
-    }
-
-header{
-    background-color: var(--head-collor);
-}
-
-section{
-    background-color: var(--main-collor);
-}
-
-footer{
-    background-color: var(--footer-collor);
-}
+:root {
+    --head-color: #ececec;
+    --main-color: #2f303a;
+    --team-color: #f5f4fa;
+    --png-background-color: #f5f4fa;
+    --main-info-color: #212121;
+    --main-text-color: #FFFFFF;
+    --button-color: #2196F3;
+  }
+  
+  header {
+    background-color: var(--head-color);
+  }
+  
+  .project {
+    background-color: var(--png-background-color);
+  }
+  
+  footer {
+    background-color: var(--main-color);
+  }
+  .main {
+    background-color: var(--main-color);
+  }
+  
+  .ourteam {
+    background-color: var(--team-color);
+  }
+  .maininfo{
+      color: #212121 ;
+  }
+  .maintext{
+      color: var(--main-text-color) ;
+  }
+  .mainbutton{
+      background-color: var(--button-color);
+  }
