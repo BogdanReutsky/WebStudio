@@ -27,7 +27,7 @@
     background-color: var(--team-color);
   }
   .maininfo{
-      color: #212121 ;
+      color: var(--main-info-color) ;
   }
   .maintext{
       color: var(--main-text-color) ;
