@@ -7,10 +7,12 @@
   --main-text-color: #FFF;
   --accent-color: #2196F3;
   --text-color: #000;
-  --features-color: #FFF;
+  --features-color: #fff;
   --desc-color: #757575;
   --header-logo: #000;
-  --footer-logo: #FFF;
+  --footer-logo: #fff;
+  --btn-color: #fff;
+  --btn-background-color: #f5f4fa; 
 }
 
 body{
@@ -182,6 +184,21 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
+}
+
+.project-btn{
+  color: var(--btn-color);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.62; /* 162.5% */
+letter-spacing: 0.48px;
+border-radius: 4px;
+background: var(--btn-background-color);
+}
+.project-btn:hover{
+  border-radius: 4px;
+  background: #2196F3;
 }
 
 
