@@ -9,6 +9,8 @@
   --text-color: #000;
   --features-color: #FFF;
   --desc-color: #757575;
+  --footer-logo: #000;
+  --header-logo: #FFF;
 }
 
 body{
@@ -33,16 +35,26 @@ footer{
 
 .logo-color{
   color: var(--accent-color);
-  font-family: Raleway;
+  font-family: raleway;
   font-size: 26px;;
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.78px;
 }
 
-.logo{
-  color: var(--text-color);
-  font-family: Raleway;
+.footer-logo{
+  color: var(--footer-logo);
+  font-family: raleway;
+  font-size: 26px;;
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: 0.78px;
+  
+}
+
+.header-logo{
+  color: var(--header-logo);
+  font-family: raleway;
   font-size: 26px;;
   font-weight: 700;
   line-height: 1.38;
