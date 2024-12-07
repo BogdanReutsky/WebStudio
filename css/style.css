@@ -12,20 +12,46 @@ body{
 font-family: roboto;
 }
 
+.about{
+background-color: var(--special-color);
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+.project{
+  background-color: var(--special-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 header{
   background-color: var(--special-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 footer{
   background-color: var(--main-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .hero{
   background-color: var(--main-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .main{
   background-color: var(--special-color);
 }
 .team{
   background-color: var(--background-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.work{
+  background-color: var(--special-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .header-color{
@@ -108,7 +134,8 @@ font-size: 44px;
 font-weight: 900;
 line-height: 1.36; /* 136.364% */
 letter-spacing: 2.64px;
-text-transform: uppercase
+text-transform: uppercase;
+padding-bottom: 30px;
 }
 
 .hero-btn{
@@ -130,6 +157,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   line-height: 1.14;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
 .about-desc{
@@ -147,6 +175,7 @@ letter-spacing: 0.42px;
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 1.08px;
+  padding-bottom: 50px;
 }
 
 .team-title{
@@ -156,6 +185,7 @@ letter-spacing: 0.42px;
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 1.08px;
+  padding-bottom: 50px ;
 }
 
 .team-name{
@@ -215,33 +245,9 @@ border-radius: 4px;
 }
 
 .container{
-  width: 1630px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  margin-left: auto;
-  margin-right: auto;
-  outline: solid 2px red;
-}
-
-.container-header{
-  width: 1630px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  margin-left: auto;
-  margin-right: auto;
-  outline: solid 2px red;
-}
-
-.container-footer{
-  width: 1630px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 60px;
-  padding-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
   outline: solid 2px red;
