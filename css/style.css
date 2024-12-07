@@ -214,5 +214,35 @@ border-radius: 4px;
   background: #2196F3;
 }
 
+.container{
+  width: 1630px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: solid 2px red;
+}
 
+.container-header{
+  width: 1630px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: solid 2px red;
+}
 
+.container-footer{
+  width: 1630px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: solid 2px red;
+}
