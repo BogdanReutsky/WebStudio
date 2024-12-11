@@ -24,10 +24,21 @@ padding-bottom: 94px;
   padding-bottom: 94px;
 }
 
+.header-list{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.header-nav{
+  margin-left: 93px;
+  margin-right: 330px;
+}
+
 header{
   background-color: var(--special-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 footer{
   background-color: var(--main-color);
@@ -50,7 +61,6 @@ footer{
 
 .work{
   background-color: var(--special-color);
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -61,6 +71,11 @@ footer{
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.78px;
+}
+
+.header-box{
+  display: flex;
+  gap: 50px;
 }
 
 .footer-color{
@@ -79,7 +94,10 @@ footer{
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.78px;
-  
+}
+
+.header-holder{
+  display: flex;
 }
 
 .header-logo{
@@ -89,7 +107,6 @@ footer{
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.78px;
-  
 }
 
 .header-link{
