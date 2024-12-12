@@ -325,6 +325,7 @@ padding: 6px 22px;
 .project-btn:hover{
   border-radius: 4px;
   background: #2196F3;
+  color: var(--special-color);
 }
 
 .container{
