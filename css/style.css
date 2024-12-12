@@ -26,13 +26,17 @@ padding-bottom: 94px;
 
 .header-list{
   display: flex;
-  justify-content: space-between;
+  gap: 50px;
+}
+
+.header-box{
+  display: flex;
   gap: 50px;
 }
 
 .header-nav{
   margin-left: 93px;
-  margin-right: 330px;
+  margin-right: auto;
 }
 
 header{
@@ -49,6 +53,7 @@ footer{
   background-color: var(--main-color);
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
 }
 .main{
   background-color: var(--special-color);
@@ -73,11 +78,6 @@ footer{
   letter-spacing: 0.78px;
 }
 
-.header-box{
-  display: flex;
-  gap: 50px;
-}
-
 .footer-color{
   color: var(--accent-color);
   font-family: raleway;
@@ -96,8 +96,19 @@ footer{
   letter-spacing: 0.78px;
 }
 
+.footer-address{
+  display: block;
+  margin-top: 20px;
+
+}
+
+.footer-item{
+  padding-top: 9px;
+}
+
 .header-holder{
   display: flex;
+  align-items: center;
 }
 
 .header-logo{
@@ -153,6 +164,9 @@ line-height: 1.36; /* 136.364% */
 letter-spacing: 2.64px;
 text-transform: uppercase;
 padding-bottom: 30px;
+width: 696px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .hero-btn{
@@ -165,6 +179,11 @@ letter-spacing: 0.96px;
 border-radius: 4px;
 background: var(--accent-color);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+padding: 10px 32px;
+}
+
+.about-list{
+  display: flex;
 }
 
 .about-title{
@@ -185,6 +204,11 @@ line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
 }
 
+.work-list{
+  display: flex;
+  gap: 30px;
+}
+
 .work-title{
   color: var(--main-info-color);
   text-align: center;
@@ -193,6 +217,11 @@ letter-spacing: 0.42px;
   line-height: 1.16;
   letter-spacing: 1.08px;
   padding-bottom: 50px;
+}
+
+.team-list{
+  display: flex;
+  gap: 30px;
 }
 
 .team-title{
@@ -221,6 +250,42 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.18;
 letter-spacing: 0.48px;
+}
+
+.project-list{
+  display: flex;
+}
+
+.cart-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.cart-img{
+  margin-bottom: 20px;
+}
+
+.cart-title{
+color: var(--main-info-color);
+font-size: 18px;
+font-weight: 700;
+line-height: 2; /* 200% */
+letter-spacing: 1.08px;
+}
+
+.cart-desc{
+color: var(--info-color);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.87; /* 187.5% */
+letter-spacing: 0.48px;
+}
+
+.project-list{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 
 .project-title{
@@ -255,6 +320,7 @@ font-weight: 500;
 line-height: 1.62; /* 162.5% */
 letter-spacing: 0.48px;
 border-radius: 4px;
+padding: 6px 22px;
 }
 .project-btn:hover{
   border-radius: 4px;
