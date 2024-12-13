@@ -224,6 +224,10 @@ letter-spacing: 0.42px;
   gap: 30px;
 }
 
+.team-item{
+  background-color: var(--special-color);
+}
+
 .team-title{
   color: var(--main-info-color);
   text-align: center;
@@ -241,6 +245,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.18;
 letter-spacing: 0.48px;
+margin-top: 30px;
 }
 
 .team-desc{
@@ -250,6 +255,8 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.18;
 letter-spacing: 0.48px;
+margin-top: 10px;
+margin-bottom: 30px;
 }
 
 .project-list{
@@ -260,6 +267,7 @@ letter-spacing: 0.48px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  background-color: var(--special-color);
 }
 
 .cart-img{
@@ -321,10 +329,11 @@ line-height: 1.62; /* 162.5% */
 letter-spacing: 0.48px;
 border-radius: 4px;
 padding: 6px 22px;
+margin-bottom: 50px;
 }
 .project-btn:hover{
   border-radius: 4px;
-  background: #2196F3;
+  background-color: #2196F3;
   color: var(--special-color);
 }
 
