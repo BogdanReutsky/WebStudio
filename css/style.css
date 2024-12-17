@@ -6,6 +6,7 @@
   --header-color: #000;
   --special-color: #fff;
   --info-color: #757575;
+  --border-color: #EEE;
 }
 
 body {
@@ -107,8 +108,13 @@ footer {
   margin-top: 20px;
 }
 
-.footer-item {
+.footer-list{
   margin-top: 9px;
+}
+
+.footer-item:first-child{
+  margin-bottom: 9px;
+  
 }
 
 .header-holder {
@@ -146,6 +152,10 @@ footer {
 
 .header-contact:hover {
   color: #2196f3;
+}
+
+.header-line{
+  margin-top: 25px;
 }
 
 .footer-contact {
@@ -256,7 +266,6 @@ footer {
   font-weight: 500;
   line-height: 1.18;
   letter-spacing: 0.48px;
-  margin-top: 30px;
 }
 
 .team-desc {
@@ -267,7 +276,6 @@ footer {
   line-height: 1.18;
   letter-spacing: 0.48px;
   margin-top: 10px;
-  margin-bottom: 30px;
 }
 
 .project-list {
@@ -279,6 +287,10 @@ footer {
   flex-wrap: wrap;
   gap: 30px;
   background-color: var(--special-color);
+}
+
+.cart-item{
+  outline: solid 1px var(--border-color);
 }
 
 .cart-title {
