@@ -6,7 +6,8 @@
   --header-color: #000;
   --special-color: #fff;
   --info-color: #757575;
-  --border-color: #EEE;
+  --border-color: #eee;
+  --border-bottom-color: #ececec;
 }
 
 body {
@@ -18,7 +19,6 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 .project {
   background-color: var(--special-color);
   padding-top: 94px;
@@ -44,6 +44,7 @@ header {
   background-color: var(--special-color);
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid var(--border-bottom-color);
 }
 footer {
   background-color: var(--main-color);
@@ -153,10 +154,6 @@ footer {
   color: #2196f3;
 }
 
-.header-line{
-  margin-top: 25px;
-}
-
 .footer-contact {
   color: var(--info-color);
   font-style: normal;
@@ -199,6 +196,7 @@ footer {
 
 .about-list {
   display: flex;
+  gap: 30px;
 }
 
 .about-title {
