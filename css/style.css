@@ -222,6 +222,10 @@ footer {
   gap: 30px;
 }
 
+.work-item{
+  flex-basis: calc((100% - 60px) / 3);
+}
+
 .work-title {
   color: var(--main-info-color);
   text-align: center;
@@ -239,6 +243,7 @@ footer {
 
 .team-item {
   background-color: var(--special-color);
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .team-holder{
@@ -288,6 +293,7 @@ footer {
 
 .cart-item{
   outline: solid 1px var(--border-color);
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .cart-title {
