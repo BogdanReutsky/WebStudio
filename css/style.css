@@ -275,8 +275,12 @@ footer {
 }
 
 .team-holder{
-  padding-top: 30px;
   padding-bottom: 30px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+}
+
+.team-img{
+  margin-bottom: 30px;
 }
 
 .team-title {
@@ -348,8 +352,12 @@ footer {
   margin-bottom: 50px;
 }
 
-.project-holder{
+.text-holder{
   padding: 20px 24px;
+}
+
+.project-holder:hover{
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
 .project-title {
@@ -399,5 +407,5 @@ footer {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: solid 2px red;
+  /* outline: solid 2px red; */
 }
