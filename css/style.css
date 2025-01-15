@@ -272,15 +272,13 @@ footer {
 .team-item {
   background-color: var(--special-color);
   flex-basis: calc((100% - 90px) / 4);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-holder{
   padding-bottom: 30px;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
-}
-
-.team-img{
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .team-title {
@@ -399,6 +397,7 @@ footer {
   border-radius: 4px;
   background-color: #2196f3;
   color: var(--special-color);
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12)
 }
 
 .container {
