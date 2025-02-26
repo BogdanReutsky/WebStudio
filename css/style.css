@@ -8,6 +8,7 @@
   --info-color: #757575;
   --border-color: #eee;
   --border-bottom-color: #ececec;
+  --logo-color:#AFB1B8;
 }
 
 body {
@@ -398,6 +399,25 @@ footer {
   background-color: #2196f3;
   color: var(--special-color);
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12)
+}
+
+.clients-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-logo{
+  width: 170px;
+  height: 92px;
+fill: var(--logo-color);
+padding: 16px 32px;
+border-radius: 4px;
+border: 1px solid var(--logo-color);
+}
+
+.clients-logo:hover{
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 .container {
