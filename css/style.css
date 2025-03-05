@@ -104,7 +104,7 @@ footer {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.71; /* 171.429% */
+  line-height: 1.71;
   letter-spacing: 0.42px;
   display: block;
   margin-top: 20px;
@@ -144,6 +144,9 @@ footer {
 }
 
 .header-contact {
+  display: flex;
+  gap: 10px;
+  align-items: center;
   color: var(--info-color);
   font-size: 14px;
   font-weight: 500;
@@ -151,8 +154,17 @@ footer {
   letter-spacing: 0.28px;
 }
 
-.header-contact:hover {
-  color: #2196f3;
+.header-contact:hover{
+  color: var(--accent-color);
+  .header-svg{
+    fill: var(--accent-color);
+  }
+}
+
+.header-svg{
+  width: 16px;
+height: 12px;
+fill: var(--info-color);
 }
 
 .footer-contact {
@@ -164,8 +176,50 @@ footer {
   letter-spacing: 0.28px;
 }
 
+.footer-container{
+  display: flex;
+}
+
 .footer-contact:hover {
   color: #2196f3;
+}
+
+.svg-list{
+  display: flex;
+  gap: 10px;
+}
+
+.svg-holder{
+  margin-left: 70px;
+  margin-top: 12px;
+}
+
+.social-title{
+  color: var(--special-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer-svg{
+  width: 20px;
+height: 20px;
+fill: var(--special-color);
+}
+.link-svg{
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.10);
+ padding: 12px 12px 12px 12px;
+ border-radius: 50%;
+ width: 44px;
+height: 44px;
+}
+
+.link-svg:hover{
+  background-color: var(--accent-color);
 }
 
 .hero-title {
@@ -242,7 +296,7 @@ footer {
   color: var(--info-color);
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.71; /* 171.429% */
+  line-height: 1.71;
   letter-spacing: 0.42px;
 }
 
@@ -310,6 +364,37 @@ footer {
   letter-spacing: 0.48px;
   margin-top: 10px;
 }
+.team-link{
+  display: flex;
+  background-color: var(--special-color);
+ padding: 12px 12px 12px 12px;
+ border-radius: 50%;
+ width: 44px;
+height: 44px;
+}
+
+.team-link:hover{
+  background-color: var(--accent-color);
+  .link-svg{
+    fill: var(--special-color);
+  }
+}
+
+.list-svg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  gap: 10px;
+}
+
+.team-svg{
+  width: 20px;
+height: 20px;
+fill: var(--logo-color);
+}
+
+/* project */
 
 .project-list {
   display: flex;
@@ -399,6 +484,21 @@ footer {
   background-color: #2196f3;
   color: var(--special-color);
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12)
+}
+
+.clients{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clietns-title{
+  color: var(--main-info-color);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+margin-bottom: 50px;
 }
 
 .clients-list{
