@@ -586,6 +586,7 @@ letter-spacing: 0.96px;
 display: flex;
 align-items: center;
 justify-content: center;
+gap: 10px;
 }
 
 .footer-icon{
