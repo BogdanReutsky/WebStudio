@@ -542,11 +542,12 @@ opacity: 0;
 
 .footer-holder{
 margin-left: auto;
+margin-top: 10px;
 }
 
 .footer-form{
   display: flex;
-  gap: 10px;
+  gap: 12px;
 }
 
 .footer-title{
@@ -567,6 +568,7 @@ border: 1px solid rgba(255, 255, 255, 0.30);
 background: rgba(33, 150, 243, 0.00);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 padding-left: 16px;
+color: var(--special-color);
 }
 
 .footer-button{
@@ -584,7 +586,6 @@ letter-spacing: 0.96px;
 display: flex;
 align-items: center;
 justify-content: center;
-gap: 10px;
 }
 
 .footer-icon{
