@@ -566,7 +566,7 @@ transform: translateY(100%);
   color: var(--main-info-color);
   font-size: 18px;
   font-weight: 700;
-  line-height: 2; /* 200% */
+  line-height: 2; 
   letter-spacing: 1.08px;
 }
 
