@@ -203,15 +203,14 @@ footer {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.28px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* доробити */
 
 .header-contact:hover {
   color: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   .header-svg {
     fill: var(--accent-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
@@ -219,6 +218,7 @@ footer {
   width: 16px;
   height: 12px;
   fill: var(--info-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-contact {
@@ -232,17 +232,18 @@ footer {
 
 .footer-container {
   display: flex;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-contact:hover {
   color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-list {
   display: flex;
   gap: 10px;
 }
+
 
 .svg-holder {
   margin-left: 70px;
@@ -271,11 +272,11 @@ footer {
   border-radius: 50%;
   width: 44px;
   height: 44px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-svg:hover {
   background-color: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-title {
@@ -449,14 +450,13 @@ footer {
   border-radius: 50%;
   width: 44px;
   height: 44px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-link:hover {
   background-color: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   .team-svg {
     fill: var(--special-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
@@ -563,10 +563,13 @@ transform: translateY(100%);
   padding: 20px 24px;
 }
 
+.project-holder{
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .project-holder:hover {
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-title {
@@ -656,6 +659,7 @@ height: 24px;
   letter-spacing: 0.48px;
   border-radius: 4px;
   padding: 6px 22px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-btn:hover {
   border-radius: 4px;
@@ -663,7 +667,6 @@ height: 24px;
   color: var(--special-color);
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients {
@@ -693,12 +696,12 @@ height: 24px;
   padding: 16px 32px;
   border-radius: 4px;
   border: 1px solid var(--logo-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-logo:hover {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container {
