@@ -1,0 +1,126 @@
+.project {
+    background-color: var(--special-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .project-list {
+    display: flex;
+  }
+  
+  .cart-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: var(--special-color);
+  }
+  
+  .cart-item {
+    outline: solid 1px var(--border-color);
+    flex-basis: calc((100% - 60px) / 3);
+  }
+  
+  .cart-item:hover{
+    .cart-position{
+    transform: translateY(0);
+    }
+  }
+  
+  .cart-title {
+    color: var(--main-info-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2; 
+    letter-spacing: 1.08px;
+  }
+  
+  .cart-desc {
+    color: var(--info-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87; 
+    letter-spacing: 0.48px;
+    margin-top: 4px;
+  }
+  
+  .cart-position{
+    color: var(--special-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.54px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 50px;
+  background: rgba(33, 150, 243, 0.90);
+  opacity: 1;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(100%);
+  }
+  
+  .cart-position:hover{
+    opacity: 1;
+  }
+  
+  
+  .cart-relative{
+    position: relative;
+    overflow: hidden;
+    
+  }
+  
+  .project-list {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+  }
+  
+  .text-holder {
+    padding: 20px 24px;
+  }
+  
+  .project-holder{
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .project-holder:hover {
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12),
+      0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+  }
+  
+  .project-title {
+    color: var(--main-info-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2; 
+    letter-spacing: 1.08px;
+  }
+  
+  .project-desc {
+    color: var(--info-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+    letter-spacing: 0.48px;
+  }
+
+  .project-btn {
+    color: var(--main-info-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.48px;
+    border-radius: 4px;
+    padding: 6px 22px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .project-btn:hover {
+    border-radius: 4px;
+    background-color: #2196f3;
+    color: var(--special-color);
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1),
+      0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+  }
