@@ -17,15 +17,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style/main.min.css">
   </head>
   <body>
     <header class="header">
       <div class="container header-holder">
-        <a href="./index.html" class="header-logo"
+        <a href="./index.html" class="header-logo animate__animated animate__backInDown"
           ><span class="header-color">Web</span>Studio</a
         >
-        <nav class="header-nav">
+        <nav class="header-nav animate__animated animate__backInDown">
           <ul class="header-list">
             <li class="header-item">
               <a class="header-link" href="./index.html">Студія</a>
@@ -38,7 +43,7 @@
             </li>
           </ul>
         </nav>
-        <ul class="header-box">
+        <ul class="header-box animate__animated animate__backInDown">
           <li class="header-element">
             <a class="header-contact" href="mailto:info@devstudio.com">
               <svg class="header-svg">
@@ -81,7 +86,7 @@
             </li>
           </ul>
           <ul class="cart-list">
-            <li class="cart-item">
+            <li class="cart-item" data-aos="zoom-in">
               <div class="project-holder">
                 <div class="cart-relative">
                   <img
@@ -102,7 +107,7 @@
                 </div>
               </div>
             </li>
-            <li class="cart-item">
+            <li class="cart-item" data-aos="zoom-in">
               <div class="project-holder">
                 <div class="cart-relative">
                   <img
@@ -123,7 +128,7 @@
                 </div>
               </div>
             </li>
-            <li class="cart-item">
+            <li class="cart-item" data-aos="zoom-in">
               <div class="project-holder">
                 <div class="cart-relative">
                 <img
@@ -144,7 +149,7 @@
                 </div>
               </div>
             </li>
-            <li class="cart-item">
+            <li class="cart-item" data-aos="zoom-in">
               <div class="project-holder">
                 <div class="cart-relative">
                 <img
@@ -165,7 +170,7 @@
                 </div>
               </div>
             </li>
-            <li class="cart-item">
+            <li class="cart-item" data-aos="zoom-in">
               <div class="project-holder">
                 <div class="cart-relative">
                 <img
@@ -186,7 +191,7 @@
                 </div>
               </div>
             </li>
-            <li class="cart-item">
+            <li class="cart-item" data-aos="zoom-in">
               <div class="project-holder">
                 <div class="cart-relative">
                 <img
@@ -207,7 +212,7 @@
                 </div>
               </div>
             </li>
-            <li class="cart-item">
+            <li class="cart-item" data-aos="zoom-in">
               <div class="project-holder">
                 <div class="cart-relative">
                 <img
@@ -228,7 +233,7 @@
                 </div>
               </div>
             </li>
-            <li class="cart-item">
+            <li class="cart-item" data-aos="zoom-in">
               <div class="project-holder">
                 <div class="cart-relative">
                 <img
@@ -249,7 +254,7 @@
                 </div>
               </div>
             </li>
-            <li class="cart-item">
+            <li class="cart-item" data-aos="zoom-in">
               <div class="project-holder">
                 <div class="cart-relative">
                 <img
@@ -355,6 +360,10 @@
           </button>
         </form>
       </div>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
       </div>
     </footer>
   </body>
