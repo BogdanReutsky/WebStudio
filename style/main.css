@@ -66,7 +66,7 @@ header {
   position: relative;
 }
 
-.header__holder {
+.header-holder {
   display: flex;
   align-items: center;
 }
