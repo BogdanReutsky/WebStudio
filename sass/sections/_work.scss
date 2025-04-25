@@ -1,5 +1,5 @@
 .work {
-    background-color: var(--special-color);
+    background-color: $special-color;
     padding-bottom: 94px;
   }
 
@@ -13,7 +13,7 @@
   }
   
   .work-title {
-    color: var(--main-info-color);
+    color: $main-info-color;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -27,7 +27,7 @@
   }
   
   .position-desc {
-    color: var(--special-color);
+    color: $special-color;
     text-align: center;
     font-size: 14px;
     font-weight: 700;

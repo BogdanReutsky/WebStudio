@@ -1,5 +1,5 @@
 .main {
-  background-color: var(--special-color);
+  background-color: $special-color;
 }
 
 .hero {
@@ -14,7 +14,7 @@
   }
 
   .hero-title {
-    color: var(--special-color);
+    color: $special-color;
     text-align: center;
     font-size: 44px;
     font-weight: 900;
@@ -28,14 +28,14 @@
   }
   
   .hero-btn {
-    color: var(--special-color);
+    color: $special-color;
     text-align: center;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.87; 
     letter-spacing: 0.96px;
     border-radius: 4px;
-    background: var(--accent-color);
+    background: $accent-color;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     padding: 10px 32px;
   }

@@ -1,6 +1,6 @@
  .modal {
     border-radius: 4px;
-    background: #fff;
+    background: $special-color;
     position: relative;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
@@ -55,14 +55,14 @@
   .modal-close:focus,
   .modal-close:hover {
     border: none;
-    outline: 1px solid var(--accent-color);
+    outline: 1px solid $accent-color;
     .modal-cross {
-      fill: var(--accent-color);
+      fill: $accent-color;
     }
   }
   
   .modal-title {
-    color: var(--main-info-color);
+    color: $main-info-color;
     text-align: center;
     font-size: 20px;
     font-weight: 700;
@@ -72,7 +72,7 @@
   }
   
   .modal-label {
-    color: var(--info-color);
+    color: $info-color;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.2;
@@ -94,12 +94,12 @@
   .modal-input:hover,
   .modal-input:focus {
     border: none;
-    outline: 1px solid var(--accent-color);
+    outline: 1px solid $accent-color;
   }
   
   .modal-input:hover + .modal-icon,
   .modal-input:focus + .modal-icon {
-    fill: var(--accent-color);
+    fill: $accent-color;
   }
   
   .modal-comment {
@@ -128,7 +128,7 @@
   }
   
   .modal-desc {
-    color: var(--info-color);
+    color: $info-color;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.7;
@@ -137,7 +137,7 @@
   }
   
   .modal-link {
-    color: var(--accent-color);
+    color: $accent-color;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.7;
@@ -160,7 +160,7 @@
   }
   
   .modal-btn {
-    color: #fff;
+    color: $special-color;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.9;
@@ -168,7 +168,7 @@
     width: 200px;
     height: 50px;
     border-radius: 4px;
-    background: var(--accent-color);
+    background: $accent-color;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin-top: 30px;
   }

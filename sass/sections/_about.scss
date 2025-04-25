@@ -1,5 +1,5 @@
 .about {
-    background-color: var(--special-color);
+    background-color: $special-color;
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -10,7 +10,7 @@
   }
   
   .about-title {
-    color: var(--main-info-color);
+    color: $main-info-color;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
@@ -24,7 +24,7 @@
     display: block;
     width: 270px;
     height: 120px;
-    background-color: var(--background-color);
+    background-color: $background-color;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70px;
@@ -48,7 +48,7 @@
   }
   
   .about-desc {
-    color: var(--info-color);
+    color: $info-color;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
