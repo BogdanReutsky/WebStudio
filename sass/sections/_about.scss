@@ -2,55 +2,56 @@
     background-color: $special-color;
     padding-top: 94px;
     padding-bottom: 94px;
+
+    &__list {
+      display: flex;
+      gap: 30px;
+    }
+    
+    &__title {
+      color: $main-info-color;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.14;
+      letter-spacing: 0.42px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    
+    &__item::before {
+      content: "";
+      display: block;
+      width: 270px;
+      height: 120px;
+      background-color: $background-color;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 70px;
+      margin-bottom: 30px;
+    }
+    
+    &__item:nth-child(1)::before {
+      background-image: url(../imgbefore/antena.svg);
+    }
+    
+    &__item:nth-child(2)::before {
+      background-image: url(../imgbefore/clock.svg);
+    }
+    
+    &__item:nth-child(3)::before {
+      background-image: url(../imgbefore/diagram.svg);
+    }
+    
+    &__item:nth-child(4)::before {
+      background-image: url(../imgbefore/astronaut.svg);
+    }
+    
+    &__desc {
+      color: $info-color;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.71;
+      letter-spacing: 0.42px;
+    }
   }
 
-  .about-list {
-    display: flex;
-    gap: 30px;
-  }
-  
-  .about-title {
-    color: $main-info-color;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.14;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-  }
-  
-  .about-item::before {
-    content: "";
-    display: block;
-    width: 270px;
-    height: 120px;
-    background-color: $background-color;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 70px;
-    margin-bottom: 30px;
-  }
-  
-  .about-item:nth-child(1)::before {
-    background-image: url(../imgbefore/antena.svg);
-  }
-  
-  .about-item:nth-child(2)::before {
-    background-image: url(../imgbefore/clock.svg);
-  }
-  
-  .about-item:nth-child(3)::before {
-    background-image: url(../imgbefore/diagram.svg);
-  }
-  
-  .about-item:nth-child(4)::before {
-    background-image: url(../imgbefore/astronaut.svg);
-  }
-  
-  .about-desc {
-    color: $info-color;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.71;
-    letter-spacing: 0.42px;
-  }

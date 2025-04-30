@@ -11,9 +11,9 @@
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
-  }
 
-  .hero-title {
+    
+  &__title {
     color: $special-color;
     text-align: center;
     font-size: 44px;
@@ -27,7 +27,7 @@
     margin-right: auto;
   }
   
-  .hero-btn {
+  &__btn {
     color: $special-color;
     text-align: center;
     font-size: 16px;
@@ -38,4 +38,5 @@
     background: $accent-color;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     padding: 10px 32px;
+  }
   }

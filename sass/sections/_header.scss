@@ -1,21 +1,25 @@
-.header-box {
+.header {
+  background-color: $special-color;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid var(--border-bottom-color);
+
+  &__holder {
+    display: flex;
+    align-items: center;
+  }
+
+  &__box {
     display: flex;
     gap: 50px;
   }
-  
-  .header-nav {
+
+  &__nav {
     margin-left: 93px;
     margin-right: auto;
   }
-  
-  header {
-    background-color: $special-color;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid var(--border-bottom-color);
-  }
 
-  .header-color {
+  &__color {
     color: $accent-color;
     font-family: raleway;
     font-size: 26px;
@@ -24,18 +28,13 @@
     letter-spacing: 0.78px;
   }
 
-  .header-list {
+  &__list {
     display: flex;
     gap: 50px;
     position: relative;
   }
-  
-  .header-holder {
-    display: flex;
-    align-items: center;
-  }
-  
-  .header-logo {
+
+  &__logo {
     color: $header-color;
     font-family: raleway;
     font-size: 26px;
@@ -43,8 +42,9 @@
     line-height: 1.38;
     letter-spacing: 0.78px;
   }
-  
-  .header-link{
+
+    
+  &__link{
     color: $main-info-color;
     font-size: 14px;
     font-weight: 500;
@@ -52,7 +52,7 @@
     letter-spacing: 0.28px;
     position: relative;
   }
-  .header-link:hover {
+  &__link:hover {
     color: $accent-color;
   }
   
@@ -60,7 +60,7 @@
     color: $accent-color;
   }
   
-  .header-link::after{
+  &__link::after{
     content: "";
     display: block;
     width: 100%;
@@ -74,7 +74,7 @@
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .header-link:hover::after{
+  &__link:hover::after{
     opacity: 1;
     }
   
@@ -91,7 +91,7 @@
       opacity: 1;
     }
   
-  .header-contact {
+  &__contact {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -103,16 +103,17 @@
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .header-contact:hover {
+  &__contact:hover {
     color: $accent-color;
-    .header-svg {
+    .header__svg {
       fill: $accent-color;
     }
   }
   
-  .header-svg {
+  &__svg {
     width: 16px;
     height: 12px;
     fill: $info-color;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+}
