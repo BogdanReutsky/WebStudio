@@ -5,8 +5,7 @@
   border-bottom: 1px solid var(--border-bottom-color);
 
   &__holder {
-    display: flex;
-    align-items: center;
+    @include mflexbox($align-items: center, $justify-content: center);
   }
 
   &__box {
@@ -29,9 +28,8 @@
   }
 
   &__list {
-    display: flex;
+    @include position($display: flex, $position: relative);
     gap: 50px;
-    position: relative;
   }
 
   &__logo {
@@ -62,12 +60,11 @@
   
   &__link::after{
     content: "";
-    display: block;
+    @include position($display: block, $position: absolute);
     width: 100%;
     height: 4px;
     background-color: $accent-color;
     border-radius: 2px;
-    position: absolute;
     left: 0;
     bottom: -35px;
     opacity: 0;
@@ -80,12 +77,11 @@
   
     .active::after{
       content: "";
-      display: block;
+      @include position($display: block, $position: absolute);
       width: 100%;
       height: 4px;
       background-color: $accent-color;
       border-radius: 2px;
-      position: absolute;
       left: 0;
       bottom: -35px;
       opacity: 1;

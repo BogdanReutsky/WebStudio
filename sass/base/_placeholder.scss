@@ -1,0 +1,17 @@
+@mixin mflexbox($align-items, $justify-content){
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin flexbox($justify-content){
+    display: flex;
+    justify-content: $justify-content;
+}
+
+@mixin position($display, $position){
+    display: $display;
+    position: $position;
+}
+
+

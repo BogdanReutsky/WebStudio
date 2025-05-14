@@ -68,9 +68,7 @@
   }
   
   .list__svg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include mflexbox($align-items: center, $justify-content: center);
     margin-top: 16px;
     gap: 10px;
   }

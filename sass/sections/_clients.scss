@@ -13,8 +13,7 @@
     }
     
     &__list {
-      display: flex;
-      justify-content: space-between;
+      @include flexbox($justify-content: space-between)
     }
     
     &__logo {

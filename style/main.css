@@ -42,6 +42,7 @@ body {
 }
 .header__holder {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .header__box {
@@ -62,8 +63,8 @@ body {
 }
 .header__list {
   display: flex;
-  gap: 50px;
   position: relative;
+  gap: 50px;
 }
 .header__logo {
   color: #000;
@@ -90,11 +91,11 @@ body {
 .header__link::after {
   content: "";
   display: block;
+  position: absolute;
   width: 100%;
   height: 4px;
   background-color: #2196f3;
   border-radius: 2px;
-  position: absolute;
   left: 0;
   bottom: -35px;
   opacity: 0;
@@ -106,11 +107,11 @@ body {
 .header .active::after {
   content: "";
   display: block;
+  position: absolute;
   width: 100%;
   height: 4px;
   background-color: #2196f3;
   border-radius: 2px;
-  position: absolute;
   left: 0;
   bottom: -35px;
   opacity: 1;
@@ -326,8 +327,8 @@ body {
 }
 .team .list__svg {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-top: 16px;
   gap: 10px;
 }
@@ -500,10 +501,10 @@ body {
   font-weight: 700;
   line-height: 1.9;
   letter-spacing: 0.96px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer__icon {
   width: 24px;
@@ -636,9 +637,6 @@ body {
   position: absolute;
   top: 8px;
   right: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .modal__cross {
   width: 18px;
@@ -701,8 +699,8 @@ body {
 }
 .modal__wrap {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 .modal__check {
   margin-right: 7px;

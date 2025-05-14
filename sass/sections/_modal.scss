@@ -21,9 +21,6 @@
     position: absolute;
     top: 8px;
     right: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   
   &__cross {
@@ -96,9 +93,7 @@
   }
   
   &__wrap {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include mflexbox($align-items: center, $justify-content: center);
   }
   
   &__check {
@@ -133,8 +128,7 @@
   }
   
   &__box {
-    display: flex;
-    justify-content: center;
+   @include flexbox($justify-content:center);
   }
   
   &__btn {
@@ -163,9 +157,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include mflexbox($align-items: center, $justify-content: center);
     background: rgba(0, 0, 0, 0.5);
   }
   

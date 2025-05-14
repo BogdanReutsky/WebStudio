@@ -150,10 +150,8 @@
   font-weight: 700;
   line-height: 1.9;
   letter-spacing: 0.96px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 10px;
+     @include mflexbox($align-items: center, $justify-content: center)
   }
   
   &__icon{
