@@ -5,7 +5,7 @@
 
     
   &__list {
-    display: flex;
+  display: flex;
   gap: 8px;
   justify-content: start;
   margin-bottom: 40px;
@@ -16,7 +16,6 @@
     justify-content: center;
     margin-bottom: 30px;
   }
-
     @media screen and (min-width: 1200px) {
     margin-bottom: 50px;
   }
@@ -94,12 +93,6 @@
     position: relative;
     overflow: hidden;
     
-  }
-  
-  &__list {
-     @include flexbox($justify-content:center);
-    gap: 8px;
-    margin-bottom: 50px;
   }
   
   .text__holder {

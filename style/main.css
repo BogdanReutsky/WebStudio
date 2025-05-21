@@ -886,12 +886,6 @@ body {
   position: relative;
   overflow: hidden;
 }
-.project__list {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  margin-bottom: 50px;
-}
 .project .text__holder {
   padding: 20px 24px;
 }
