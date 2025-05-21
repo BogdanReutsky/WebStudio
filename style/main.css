@@ -804,6 +804,22 @@ body {
 }
 .project__list {
   display: flex;
+  gap: 8px;
+  justify-content: start;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  row-gap: 15px;
+}
+@media screen and (min-width: 768px) {
+  .project__list {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .project__list {
+    margin-bottom: 50px;
+  }
 }
 .project .cart__list {
   display: flex;
@@ -813,7 +829,22 @@ body {
 }
 .project .cart__item {
   outline: solid 1px #eee;
-  flex-basis: calc((100% - 60px) / 3);
+  flex-basis: 100%;
+}
+@media screen and (min-width: 480px) {
+  .project .cart__item {
+    flex-basis: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .project .cart__item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .project .cart__item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
 }
 .project .cart__item:hover .cart__position {
   transform: translateY(0);
