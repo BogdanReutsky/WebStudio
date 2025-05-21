@@ -1,6 +1,12 @@
 .work {
     background-color: $special-color;
     padding-bottom: 94px;
+      display: none;
+      text-align: center;
+      
+    @media screen and (min-width: 1200px) {
+  display: block;
+}
 
     &__list {
       display: flex;
@@ -9,6 +15,7 @@
     
     &__item {
       flex-basis: calc((100% - 60px) / 3);
+      
     }
     
     &__title {

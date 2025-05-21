@@ -1,11 +1,19 @@
 .about {
     background-color: $special-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+      @media screen and (min-width: 1200px){
     padding-top: 94px;
-    padding-bottom: 94px;
+  }
 
     &__list {
       display: flex;
       gap: 30px;
+      flex-wrap: wrap;
+      @media screen and (min-width: 1200px){
+        flex-wrap: nowrap;
+      }
     }
     
     &__title {
@@ -16,18 +24,33 @@
       letter-spacing: 0.42px;
       text-transform: uppercase;
       margin-bottom: 10px;
+      text-align: center;
+
+          @media screen and (min-width: 768px){
+      text-align: start;
+ }
     }
     
     &__item::before {
       content: "";
       display: block;
-      width: 270px;
+      width: 100%;
       height: 120px;
       background-color: $background-color;
       background-repeat: no-repeat;
       background-position: center;
       background-size: 70px;
       margin-bottom: 30px;
+
+     @media screen and (min-width: 480px){
+     width: 450px;
+    }
+    @media screen and (min-width: 768px){
+    width: 354px;
+    }
+    @media screen and (min-width: 1200px){
+     width: 270px;
+    }
     }
     
     &__item:nth-child(1)::before {
@@ -52,6 +75,17 @@
       font-weight: 400;
       line-height: 1.71;
       letter-spacing: 0.42px;
+      width: 100%;
+
+    @media screen and (min-width: 480px){
+    width: 450px;
+    }
+   @media screen and (min-width: 768px){
+   width: 354px;
+   }
+   @media screen and (min-width: 1200px){
+   width: 270px;
+  }      
     }
   }
 

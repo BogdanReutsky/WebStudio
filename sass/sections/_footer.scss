@@ -15,10 +15,15 @@
   &__logo {
     color: $special-color;
     font-family: raleway;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 1.38;
-    letter-spacing: 0.78px;
+    letter-spacing: 0.72px;
+
+      @media screen and (min-width: 1200px) {
+      letter-spacing: 0.78px;
+      font-size: 26px;
+    }
   }
   
   &__address {
@@ -50,8 +55,28 @@
   }
   
   &__container {
-    display: flex;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+  @media screen and (min-width: 768px) {
+    align-items: first baseline;
+    flex-direction: row;
+    }
+  
+    @media screen and (min-width: 1200px) {
+    }
+  }
+
+  &__wrapper{
+      text-align: center;
+
+    @media screen and (min-width: 1200px) {
+    text-align: start;
+    }
   }
   
   &__contact:hover {
@@ -65,8 +90,18 @@
   
   
   .svg__holder {
+    text-align: center;
+    margin-top: 60px;
+
+    @media screen and (min-width: 768px) {
+    margin-left: 165px;
+    margin-top: 0;
+    }
+  
+    @media screen and (min-width: 1200px) {
     margin-left: 70px;
-    margin-top: 12px;
+    text-align: start;
+    }
   }
   
   .social__title {
@@ -108,13 +143,26 @@
   }
   
   &__holder{
-  margin-left: auto;
-  margin-top: 10px;
+  margin-top: 60px;
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+    margin-left: auto;
+    margin-top: 0;
+    }
   }
   
   &__form{
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    @media screen and (min-width: 1200px){
     gap: 12px;
+    flex-direction: row;
+  }
   }
   
   &__title{
@@ -124,11 +172,11 @@
     line-height: 1.2;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   
   &__input{
-    width: 358px;
+    width: 290px;
   height: 50px;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.30);
@@ -136,6 +184,14 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding-left: 16px;
   color: $special-color;
+
+    @media screen and (min-width: 480px){
+  width: 450px;
+  }
+
+  @media screen and (min-width: 1200px){
+    width: 358px;
+  }
   }
   
   &__button{

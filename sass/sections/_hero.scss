@@ -3,6 +3,8 @@
 }
 
 .hero {
+    padding-top: 118px;
+    padding-bottom: 118px;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
@@ -12,19 +14,33 @@
     padding-bottom: 200px;
     text-align: center;
 
+      @media screen and (min-width: 1200px){
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
     
   &__title {
     color: $special-color;
     text-align: center;
-    font-size: 44px;
+    font-size: 26px;
     font-weight: 900;
     line-height: 1.36; 
-    letter-spacing: 2.64px;
+    letter-spacing: 1.56px;
     text-transform: uppercase;
     margin-bottom: 30px;
-    width: 696px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+
+      @media screen and (min-width: 480px){
+ width: 360px;
+ }
+   @media screen and (min-width: 1200px){
+ font-size: 44px;
+ letter-spacing: 2.64px;
+ width: 696px;
+  }
   }
   
   &__btn {
@@ -37,6 +53,10 @@
     border-radius: 4px;
     background: $accent-color;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    padding: 10px 32px;
+    padding: 10px 24px;
+
+       @media screen and (min-width: 1200px){
+ padding: 10px 32px;
+ }
   }
   }
