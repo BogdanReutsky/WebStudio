@@ -14,4 +14,9 @@
     position: $position;
 }
 
+@mixin svg($width, $height, $fill){
+    width: $width;
+    height: $height;
+    fill: $fill;
+}
 
