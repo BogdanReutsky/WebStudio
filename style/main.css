@@ -549,7 +549,7 @@ body {
 }
 .clients__list {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
   flex-wrap: wrap;
 }
 .clients__item {
@@ -614,6 +614,7 @@ body {
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.72px;
+  align-items: center;
 }
 @media screen and (min-width: 1200px) {
   .footer__logo {
@@ -799,8 +800,14 @@ body {
 
 .project {
   background-color: #fff;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .project {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 .project__list {
   display: flex;
