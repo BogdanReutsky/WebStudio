@@ -217,7 +217,6 @@ body {
   .header__svgmail {
     width: 16px;
     height: 12px;
-    fill: #757575;
   }
 }
 .header__svgphone {
@@ -230,7 +229,6 @@ body {
   .header__svgphone {
     width: 10px;
     height: 16px;
-    fill: #757575;
   }
 }
 
@@ -967,6 +965,8 @@ body {
   transform: scale(1);
 }
 .modal__close {
+  display: flex;
+  align-items: center;
   width: 30px;
   height: 30px;
   border-radius: 50%;
