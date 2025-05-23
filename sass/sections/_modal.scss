@@ -33,7 +33,7 @@
   &__close:hover {
     border: none;
     outline: 1px solid $accent-color;
-    &__cross {
+    .modal__cross {
       fill: $accent-color;
     }
   }

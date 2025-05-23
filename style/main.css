@@ -204,7 +204,10 @@ body {
 .header__contact:hover {
   color: #2196f3;
 }
-.header__contact:hover .header__svg {
+.header__contact:hover .header__svgmail {
+  fill: #2196f3;
+}
+.header__contact:hover .header__svgphone {
   fill: #2196f3;
 }
 .header__svgmail {
@@ -984,7 +987,7 @@ body {
   border: none;
   outline: 1px solid #2196f3;
 }
-.modal__close:focus__cross, .modal__close:hover__cross {
+.modal__close:focus .modal__cross, .modal__close:hover .modal__cross {
   fill: #2196f3;
 }
 .modal__title {
