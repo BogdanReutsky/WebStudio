@@ -1,0 +1,22 @@
+        <div class="mobile is-hidden" data-mobile>
+          <button class="mobile-close" type="button" data-mobile-close>
+            <svg class="mobile-icon"> 
+              <use href="./imgbackground/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </button>
+            <ul class="mobile__list">
+            <li class="mobile__link"><a class="mobile__link" href="./index.html">Студія</a></li>
+            <li class="mobile__link"><a class="mobile__link" href="./pages/portfolio.html">Портфоліо</a></li>
+            <li class="mobile__link"><a class="mobile__link" href="">Контакти</a></li>
+          </ul>
+          <ul class="mobile__items">
+            <li class="mobile__element"><a class="mobile__contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="mobile__element"><a class="mobile__contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          </ul>
+          <ul class="mobile__list">
+            <li class="mobile__item"><a class="mobile__social" href="">Instagram</a></li>
+            <li class="mobile__item"><a class="mobile__social" href="">Twitter</a></li>
+            <li class="mobile__item"><a class="mobile__social" href="">Facebook</a></li>
+            <li class="mobile__item"><a class="mobile__social" href="">LinkedIn</a></li>
+          </ul>
+        </div>
