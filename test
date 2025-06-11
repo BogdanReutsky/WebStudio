@@ -1,22 +1,13 @@
-        <div class="mobile is-hidden" data-mobile>
-          <button class="mobile-close" type="button" data-mobile-close>
-            <svg class="mobile-icon"> 
-              <use href="./imgbackground/symbol-defs.svg#icon-close"></use>
-            </svg>
-          </button>
-            <ul class="mobile__list">
-            <li class="mobile__link"><a class="mobile__link" href="./index.html">Студія</a></li>
-            <li class="mobile__link"><a class="mobile__link" href="./pages/portfolio.html">Портфоліо</a></li>
-            <li class="mobile__link"><a class="mobile__link" href="">Контакти</a></li>
-          </ul>
-          <ul class="mobile__items">
-            <li class="mobile__element"><a class="mobile__contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            <li class="mobile__element"><a class="mobile__contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          </ul>
-          <ul class="mobile__list">
-            <li class="mobile__item"><a class="mobile__social" href="">Instagram</a></li>
-            <li class="mobile__item"><a class="mobile__social" href="">Twitter</a></li>
-            <li class="mobile__item"><a class="mobile__social" href="">Facebook</a></li>
-            <li class="mobile__item"><a class="mobile__social" href="">LinkedIn</a></li>
-          </ul>
-        </div>
+              <source srcset="./img/destop/ihor-destop@1x.webp 1x, ./img/destop/ihor-destop@2x.webp 2x"
+                media="(min-width: 1200px)">
+              <source srcset="./img/tablet/ihor-tablet@1x.webp 1x, ./img/tablet/ihor-tablet@2x.webp 2x"
+                media="(min-width: 768px)">
+              <source srcset="./img/mobile/ihor-mobile@1x.webp 1x, ./img/mobile/ihor-mobile@2x.webp 2x"
+                media="(max-width: 767px)">
+
+              <source src="./img/destop/ihor-destop@1x.webp 1x, ./img/destop/ihor-destop@2x.webp 2x"
+                media="(min-width: 1200px)">
+              <source src="./img/tablet/ihor-tablet@1x.webp 1x, ./img/tablet/ihor-tablet@2x.webp 2x"
+                media="(min-width: 768px)">
+              <source src="./img/mobile/ihor-mobile@1x.webp 1x, ./img/mobile/ihor-mobile@2x.webp 2x"
+                media="(max-width: 767px)">
